@@ -1,0 +1,1 @@
+(()=>{"use strict";class t{constructor(t){this.val=t,this.next=null}}const s=new class{constructor(){this.head=null,this.tail=null,this.length=0}push(s){const h=new t(s);return this.head?(this.tail.next=h,this.tail=h):(this.head=h,this.tail=this.head),this.length++,this}};s.push("one"),s.push("two"),s.push("three"),console.log(s)})();
